@@ -26,6 +26,9 @@ echo "1. "
 echo "2. "
 read -e Setupinfo
 if (setupinfo == 1)
+echo "============================================"
+echo "A robot is now Setting up Server for you."
+echo "============================================"
 sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
 sudo apt-get install nginx
 sudo apt-get install mysql-server mysql-client
