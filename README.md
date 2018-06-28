@@ -11,7 +11,7 @@ Here is A Automated Script that installs Wordpress on your Virtual Private Serve
 
 3. git clone https://github.com/DevelopedByAnurag/Wordoinsta.git
 
-4. cd Converto.
+4. cd Wordoinsta
 
 5. chmod +x Wordoinsta.sh
 
