@@ -29,10 +29,10 @@ if [ "$Setupinfo" == 1 ] ; then
 	echo "============================================"
 	echo "A robot is now Setting up Server for you."
 	echo "============================================"
-	sudo apt-get update && sudo apt-get dist-upgrade && sudo apt-get autoremove
-	sudo apt-get install nginx
-	sudo apt-get install mysql-server mysql-client
-	sudo apt-get install php php-mysql php-fpm php-curl php-gd php-pear php-imagick php-imap php-mcrypt php-recode php-tidy php-xmlrpc
+	sudo apt-get update -y && sudo apt-get dist-upgrade -y && sudo apt-get autoremove -y
+	sudo apt-get install nginx -y
+	sudo apt-get install mysql-server mysql-client -y
+	sudo apt-get install php php-mysql php-fpm php-curl php-gd php-pear php-imagick php-imap php-mcrypt php-recode php-tidy php-xmlrpc -y
 	sudo nginx -t
 	sudo systemctl restart nginx
 fi
