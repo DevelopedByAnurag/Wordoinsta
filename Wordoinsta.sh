@@ -35,6 +35,7 @@ if [ "$Setupinfo" == 1 ] ; then
 	sudo apt-get install php php-mysql php-fpm php-curl php-gd php-pear php-imagick php-imap php-mcrypt php-recode php-tidy php-xmlrpc -y
 	sudo nginx -t
 	sudo systemctl restart nginx
+	clear
 fi
 echo "Database Name: "
 read -e dbname
@@ -50,6 +51,7 @@ else
 	echo "============================================"
 	echo "A robot is now installing WordPress for you."
 	echo "============================================"
+	cd var/www/html
 	curl -O https://wordpress.org/latest.tar.gz
 	tar -zxvf latest.tar.gz
 	cd wordpress
