@@ -5,7 +5,7 @@ Here is A Automated Script that installs Wordpress on your Virtual Private Serve
 ## Steps To Install Script and 
 
 ```
-1. sudo apt-get update
+1. sudo apt-get update -y
 
 2. sudo apt-get install git
 
@@ -15,7 +15,7 @@ Here is A Automated Script that installs Wordpress on your Virtual Private Serve
 
 5. chmod +x Wordoinsta.sh
 
-6. /Wordoinsta.sh
+6. ./Wordoinsta.sh
 
 ```
 
