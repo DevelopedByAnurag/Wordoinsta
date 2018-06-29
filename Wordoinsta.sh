@@ -21,9 +21,10 @@ echo -e "=======================================================================
 echo -e "                             Installing Wordpress on VPS"
  echo -e "============================================================================================================================="
 echo "Choose one of the Following"
-echo "1. WebServer and Mysql are allready installed"
+echo "1. WebServer and Mysql are already installed"
 echo "2. WebServer Is Not Installed"
-read -e Setupinfo
+echo " Choose (1/2) :-"
+read  Setupinfo
 if [ "$setupinfo" == 1 ] ; then
 	echo "============================================"
 	echo "A robot is now Setting up Server for you."
