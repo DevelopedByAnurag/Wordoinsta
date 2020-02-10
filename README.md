@@ -1,6 +1,6 @@
-# Wordoinsta
+# WordoInsta
 
-Here is A Automated Script that installs Wordpress on your Virtual Private Server it will completely setup all your Database and others
+An Automated Script that installs Wordpress on your Virtual Private Server(VPC). It will completely setup all your Database and other related stuff related to wordpress.
 
 ## Steps To Install Script and 
 
@@ -19,4 +19,6 @@ Here is A Automated Script that installs Wordpress on your Virtual Private Serve
 
 ```
 
-If you like this installer Please Share it with your Devlopers Freinds Also consider Sharing it.
+If you like this installer. Please Share it with your Devlopers Freinds Also consider Sharing it with others to make there task of setting up there brand new blog simple and eazy.
+
+Follow me at <a href="https://github.com/DevelopedByAnurag/">Github</a> and Also at <a href="https://www.instagram.com/simply_a_noob/">Instagram </a>
